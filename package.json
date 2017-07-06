@@ -1,0 +1,27 @@
+{
+  "name": "maxim-api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Maxim's API for private placement portal",
+  "keywords": [],
+  "dependencies": {
+    "connect-redis": "3.0.2",
+    "include-all": "~0.1.6",
+    "node-uuid": "^1.4.7",
+    "rc": "1.0.1",
+    "sails": "~0.12.4",
+    "sails-disk": "~0.10.9",
+    "sails-mysql": "^0.11.5"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/tg_maxim/maxim-api.git"
+  },
+  "author": "Maxim Group LLC",
+  "license": ""
+}
